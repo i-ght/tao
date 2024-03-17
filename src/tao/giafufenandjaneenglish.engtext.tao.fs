@@ -1,4 +1,4 @@
-namespace Tao.Lib.EnglishTexts
+namespace Tao.EnglishTexts
 
 module GiaFuFenAndJaneEnglish =
     

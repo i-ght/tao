@@ -1,8 +1,8 @@
-namespace Tao.Lib
+namespace Tao
 
 open System.Text.RegularExpressions
 
-open Tao.Lib.EnglishTexts
+open Tao.EnglishTexts
 
 [<Struct>]
 type Tao =

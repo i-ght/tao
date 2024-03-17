@@ -1,6 +1,6 @@
 ﻿open System
 
-open Tao.Lib
+open Tao
 
 
 let taoSlices = Tao.construct()

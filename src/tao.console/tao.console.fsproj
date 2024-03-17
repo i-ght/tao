@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>tao</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <VersionPrefix>11.07.04</VersionPrefix>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\tao\tao.fsproj" />
+  </ItemGroup>
+</Project>

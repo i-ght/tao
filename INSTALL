@@ -1,0 +1,3 @@
+dotnet tool uninstall -g tao.console
+dotnet pack src/tao.console
+dotnet tool install --global --add-source ./src/tao.console/nupkg tao.console
