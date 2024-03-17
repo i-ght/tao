@@ -7,7 +7,7 @@ open Tao.EnglishTexts
 [<Struct>]
 type Tao =
     { UniqueIdentifier: int
-      Lines: string list }
+      Text: string list }
 
 module Tao =
 
@@ -31,7 +31,7 @@ module Tao =
                     text.Split("\n")
                     |> Array.mapi (fun i line -> $"{i}. {line}")
                 let index = index + 1
-                let newSlice = { UniqueIdentifier = index; Lines = List.ofArray lines }
+                let newSlice = { UniqueIdentifier = index; Text = List.ofArray lines }
                 let newAcc = newSlice :: acc
                 processMatches tail index newAcc
 
